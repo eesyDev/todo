@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 uuid = { version = "1.16.0", features = ["v4"] }
+iced = { version = "0.10", features = ["tokio"] }
+chrono = "0.4"
